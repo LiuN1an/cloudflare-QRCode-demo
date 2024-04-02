@@ -1,0 +1,11 @@
+# Top-level configuration
+name = "qr"
+main = "./worker.js"
+compatibility_date = "2022-07-12"
+
+node_compat = true
+workers_dev = false
+
+kv_namespaces = [
+  { binding = "MapRandom", id = "xxx" },
+]

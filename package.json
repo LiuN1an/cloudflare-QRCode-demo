@@ -1,0 +1,20 @@
+{
+  "name": "qrcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev ./worker.js",
+    "deploy": "wrangler deploy --name qr"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wrangler": "^3.42.0"
+  },
+  "dependencies": {
+    "itty-router": "^5.0.5",
+    "qr-image": "^3.2.0"
+  }
+}
